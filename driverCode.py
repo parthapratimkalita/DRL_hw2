@@ -13,10 +13,7 @@ from functions import grid_print
 # generate a custom Frozen Lake environment
 desc=["SFFF", "FFFF", "FFFF", "HFFG"]
 
-# here we render the environment- use this only for illustration purposes
-#env=gym.make('FrozenLake-v1', desc=desc, map_name="4x4", is_slippery=True,render_mode="human")
-
-# uncomment this and comment the previous line in the case of a large number of simulations
+# here we render the environment
 env=gym.make('FrozenLake-v1', desc=desc, map_name="4x4", is_slippery=True, render_mode="human")
 
 
