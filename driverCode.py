@@ -17,7 +17,7 @@ desc=["SFFF", "FFFF", "FFFF", "HFFG"]
 #env=gym.make('FrozenLake-v1', desc=desc, map_name="4x4", is_slippery=True,render_mode="human")
 
 # uncomment this and comment the previous line in the case of a large number of simulations
-env=gym.make('FrozenLake-v1', desc=desc, map_name="4x4", is_slippery=True,)
+env=gym.make('FrozenLake-v1', desc=desc, map_name="4x4", is_slippery=True, render_mode="human")
 
 
 # number of states in the environment
